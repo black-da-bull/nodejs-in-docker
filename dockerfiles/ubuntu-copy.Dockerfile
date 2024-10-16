@@ -3,7 +3,7 @@
 ###
 #cache our node version for installing later
 FROM node:16.14.2-slim as node
-FROM ubuntu:focal-20220404 as base
+FROM ubuntu:focal-20240918 as base
 
 # replace npm in CMD with tini for better kernel signal handling
 # You may also need development tools to build native npm addons:
