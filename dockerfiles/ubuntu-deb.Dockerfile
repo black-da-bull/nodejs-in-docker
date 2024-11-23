@@ -1,7 +1,7 @@
 ###
 ## ubuntu base with nodejs deb package, for a more secure base
 ###
-FROM ubuntu:focal-20220404 as base
+FROM ubuntu:20.04 as base
 
 # version of Node.js we will install later
 ENV NODE_VERSION=16.14.2
